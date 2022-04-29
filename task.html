@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+          border: none;
+          color: white;
+          padding: 5px 143px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          cursor: pointer;
+        }
+        button {background-color: #352b9a;} 
+        </style>
+</head>
+<body>
+    <h1>Webinar Registration</h1>
+    <form>
+        <div>
+            <label for="name" style=" display:block">Name:<span style="color:#ff0000">*</span></label><br>
+            <input type="name" style="display:inline-block; height: 25px;" name="name" placeholder="First Name">
+            <input type="lastname" style="display:inline-block; height: 25px;" name="lastname" placeholder="Last Name"><br><br>
+    
+            <label for="email" style="width:100px; display:block">Email:<span style="color:#ff0000">*</label><br>
+            <input type="email" style="display:block; width: 340px; height: 25px;" name="email" placeholder=" jack@example.com"><br>
+    
+            <label for="name" style="display:block">Company Name:<span style="color:#ff0000">*</label><br>
+            <input type="name" style="display:block; width: 340px; height: 25px;" name="name" id="name"><br>
+    
+            <label for="website" style="display:block">Company Website:<span style="color:#ff0000">*</label><br>
+            <input type="website" style="display:block; width: 340px; height: 25px;" name="website" placeholder="https://example.com"><br>
+    
+            <label for="address" style=" display:block">Address:</label><br>
+            <input type="address" style="width: 340px; height: 25px;" name="address" placeholder="Street Address"><br><br>
+            <input type="address" style="width: 340px; height: 25px;" name="address" placeholder="Apartment,suite,etc."><br><br>
+            <input type="address" style="height: 25px;" name="address" placeholder="City">
+            <input type="address" style="display:inline-block;height: 25px;" name="address" placeholder="State"><br><br>
+            <input type="postalcode" style="height: 25px;" name="postalcode" placeholder="Postal Code">
+            <select name="states" style="height: 31px;" id="states">
+                <option value="states">United States of America</option>
+                <option value="saab">A</option>
+                <option value="opel">O</option>
+                <option value="audi">B</option>
+              </select>
+            </div><br>
+            <button class="button button">Register</button>
+        </form>
+</body>
+</html>
